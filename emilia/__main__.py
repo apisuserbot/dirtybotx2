@@ -148,7 +148,7 @@ def start(update, context):
             first_name = update.effective_user.first_name
             buttons = InlineKeyboardMarkup(
                 [[InlineKeyboardButton(text="Add me to your group", url="https://t.me/marsha2xbot?startgroup=new")],
-                [InlineKeyboardButton(text="⚙️ Connections", callback_data="main_connect")],
+                [InlineKeyboardButton(text="⚙️ Connections", callback_data="main_connect"), InlineKeyboardButton(text="🛠️ SUPPORT CHANNEL", url="https://t.me/marshasupport"),],
                 [InlineKeyboardButton(text="🇺🇲 Language", callback_data="main_setlang"), InlineKeyboardButton(text="❓ Help", url="https://t.me/marsha2xbot?start=help")]])
             update.effective_message.reply_text(
                 tl(update.effective_message, PM_START_TEXT).format(escape_markdown(first_name), escape_markdown(context.bot.first_name), OWNER_ID),
