@@ -4,12 +4,12 @@ __lang__ = "🇮🇩 Indonesia"
 id = {
 # main stuff
 	"start_text": """
-Hai {}, nama saya {}! Saya seorang manajer grup yang dikelola oleh [master saya ini](t.me/aflky02)
+Hai {}, nama saya {}! Saya seorang manajer grup yang dikelola oleh [master saya ini](t.me/X_ImFine)
 
 Anda dapat menemukan daftar perintah yang tersedia dengan /help.
 """,
 	"help_text": """
-Hai! Nama saya adalah *Dirty*.
+Hai! Nama saya adalah *ᎷᎪᎡᏚᎻᎪ*.
 Saya adalah bot manajemen grup dengan beberapa kelebihan yang menyenangkan! Silahkan lihat berikut ini untuk beberapa ide dari \
 hal-hal yang bisa saya bantu.
 
@@ -27,7 +27,7 @@ All commands can either be used with / or !.
 Dan berikut ini:
 """,
 	"donate_text": """Hai, senang mendengar Anda ingin menyumbang!
-Butuh banyak pekerjaan untuk [pencipta saya](tg://user?id=388576209) untuk membawa saya ke tempat saya sekarang, dan \
+Butuh banyak pekerjaan untuk [pencipta saya](tg://user?id=1411273575) untuk membawa saya ke tempat saya sekarang, dan \
 setiap sumbangan membantu dan memotivasi dia untuk membuat saya lebih baik.
 
 Semua uang sumbangan akan diberikan ke VPS yang lebih baik untuk menjadi tuan rumah saya, dan atau beberapa makanan. \
