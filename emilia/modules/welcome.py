@@ -129,8 +129,7 @@ def new_member(update, context):
 	if isAllowed or user.id in SUDO_USERS:
 		sql.whitelistChat(str(chat.id))
 	else:
-		msg.reply_text("Terima kasih untuk menambahkan saya ke grup Anda! Namun grup ini tidak masuk daftar putih untuk menggunakan bot, maaf.\n\nP'M! @Aflky02")
-		context.bot.leave_chat(int(chat.id))
+		msg.reply_text("Terima kasih untuk menambahkan saya ke grup Anda!\n Jika Perlu Bantuan Silahkan PM @X_Newbie)
 		return
 	
 	cleanserv = sql.clean_service(chat.id)
