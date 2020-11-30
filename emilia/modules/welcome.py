@@ -123,14 +123,6 @@ def new_member(update, context):
 	msg = update.effective_message  # type: Optional[Message]
 
 	should_welc, cust_welcome, cust_content, welc_type = sql.get_welc_pref(chat.id)
-
-	isAllowed = sql.isWhitelisted(str(chat.id))
-
-	if isAllowed or user.id in SUDO_USERS:
-		sql.whitelistChat(str(chat.id))
-	else:
-		msg.reply_text("Terima kasih untuk menambahkan saya ke grup Anda!\n Jika Perlu Bantuan Silahkan PM @X_Newbie")
-		return
 	
 	cleanserv = sql.clean_service(chat.id)
 	if cleanserv:
