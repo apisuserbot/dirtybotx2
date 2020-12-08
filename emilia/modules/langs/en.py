@@ -33,9 +33,15 @@ Available commands are:
 # __main__
 	"Ada yang bisa saya bantu? 😊": "Is there anything I can help? 😊",
 	"start_text": """
-Hi {}, my name is {}! I am a group manager managed by [my master](t.me/X_ImFine).
+Hi {}, my name is {}! 
+ ━━━━━━━━━━━━━━━━━━━━━━━
+I Am A Bot That Can Help You
+Managing Groups to be Safe and Fun,
 
-You can find the list of available commands with /help.
+Use Command / help to find out my features
+━━━━━━━━━━━━━━━━━━━━━━━
+
+Want to add me to your group? Just click the button below!
 """,
 	"help_text": """
 Hey! My name is *ᎷᎪᎡᏚᎻᎪ*. I am a group management bot, here to help you get around and keep the order in your groups!
