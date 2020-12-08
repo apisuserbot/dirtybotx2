@@ -4,9 +4,15 @@ __lang__ = "🇮🇩 Indonesia"
 id = {
 # main stuff
 	"start_text": """
-Hai {}, nama saya {}! Saya seorang manajer grup yang dikelola oleh [master saya ini](t.me/X_ImFine)
+Hai {}, nama saya {}!
+━━━━━━━━━━━━━━━━━━━━━━━
+Saya Adalah Bot Yang Dapat Membantumu
+Mengelola Group Menjadi Aman dan Menyenangkan,
 
-Anda dapat menemukan daftar perintah yang tersedia dengan /help.
+Gunakan Perintah /help untuk mengetahui fitur saya
+━━━━━━━━━━━━━━━━━━━━━━━
+
+Ingin menambahkan saya ke grup Anda? Cukup klik tombol di bawah!
 """,
 	"help_text": """
 Hai! Nama saya adalah *ᎷᎪᎡᏚᎻᎪ*.
