@@ -3,7 +3,7 @@ emoji
 requests
 git+https://github.com/TomyPrs/python-markdown2.git
 sqlalchemy
-python-telegram-bot==13.1
+python-telegram-bot
 jikanpy
 psycopg2-binary
 feedparser
