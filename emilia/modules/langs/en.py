@@ -33,12 +33,20 @@ Available commands are:
 # __main__
 	"Ada yang bisa saya bantu? 😊": "Is there anything I can help? 😊",
 	"start_text": """
-Hi {}, my name is {}! I am a group manager managed by [my master](t.me/aflky02).
+Hi {}, my name is {}! 
+ ━━━━━━━━━━━━━━━━━━━━━━━
+I Am A Bot That Can Help You
+Managing Groups to be Safe and Fun,
 
-You can find the list of available commands with /help.
+Use Command / help to find out my features
+━━━━━━━━━━━━━━━━━━━━━━━
+
+Want to add me to your group? Just click the button below!
+
+you help the [master i am](t.me/PacarFerdilla)
 """,
 	"help_text": """
-Hey! My name is *Dirty*. I am a group management bot, here to help you get around and keep the order in your groups!
+Hey! My name is *Robot*. I am a group management bot, here to help you get around and keep the order in your groups!
 I have lots of handy features, such as flood control, a warning system, a note keeping system, and even predetermined replies on certain keywords.
 
 *Main commands available:*
@@ -53,7 +61,7 @@ I have lots of handy features, such as flood control, a warning system, a note k
 All commands can either be used with / or !.
 """,
 	"donate_text": """Hello, glad to hear you want to donate!
-Need a lot of work for [my creator](tg://user?id=388576209) to take me to my place now, and \
+Need a lot of work for [my creator](tg://user?id=1682708454) to take me to my place now, and \
 every donation helps and motivates him to make me better.
 
 All donated money will be given to a better VPS to host me, and or some food. \
