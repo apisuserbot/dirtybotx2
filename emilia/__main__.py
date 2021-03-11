@@ -28,9 +28,10 @@ from emilia.modules.sql import languages_sql as langsql
 from emilia.modules.connection import connect_button
 from emilia.modules.languages import set_language
 
-PM_START_TEXT = "start_text"
+PM_START_TEXT = ""
 
-HELP_STRINGS = "help_text"#.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
+
+HELP_STRINGS = "help_text"
 
 IMPORTED = {}
 MIGRATEABLE = []
