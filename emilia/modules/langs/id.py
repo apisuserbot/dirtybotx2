@@ -13,7 +13,7 @@ Gunakan Perintah /help untuk mengetahui fitur saya
 Ingin menambahkan saya ke grup Anda? Cukup klik tombol di bawah!
 
 Jika ingin menanyakan sesuatu bisa tanyakan [master saya ini](t.me/PacarFerdilla)
-
+""",
 	"help_text": """
 Hai! Nama saya adalah *Robot*.
 Saya adalah bot manajemen grup dengan beberapa kelebihan yang menyenangkan! Silahkan lihat berikut ini untuk beberapa ide dari \
