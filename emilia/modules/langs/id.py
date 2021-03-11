@@ -4,12 +4,18 @@ __lang__ = "🇮🇩 Indonesia"
 id = {
 # main stuff
 	"start_text": """
-Hai {}, nama saya {}! Saya seorang manajer grup yang dikelola oleh [master saya ini](t.me/aflky02)
+Hai {}, nama saya {}!
+━━━━━━━━━━━━━━━━━━━━━━━
+Saya Adalah Bot Yang Dapat Membantumu
+Mengelola Group Menjadi Aman dan Menyenangkan,
+Gunakan Perintah /help untuk mengetahui fitur saya
+━━━━━━━━━━━━━━━━━━━━━━━
+Ingin menambahkan saya ke grup Anda? Cukup klik tombol di bawah!
 
-Anda dapat menemukan daftar perintah yang tersedia dengan /help.
-""",
+Jika ingin menanyakan sesuatu bisa tanyakan [master saya ini](t.me/PacarFerdilla)
+
 	"help_text": """
-Hai! Nama saya adalah *Dirty*.
+Hai! Nama saya adalah *Robot*.
 Saya adalah bot manajemen grup dengan beberapa kelebihan yang menyenangkan! Silahkan lihat berikut ini untuk beberapa ide dari \
 hal-hal yang bisa saya bantu.
 
@@ -36,9 +42,9 @@ Dia hanya orang biasa, jadi akan sangat membantu dia!
 Jika anda memang berminat untuk donate, silahkan kunjungi ayrahikari.github.io/donations.html, Terima kasih 😁""",
 	
 # Help modules
-	"language_help": """Tidak semua grup berbicara bahasa Indonesia; beberapa grup lebih suka Dirty menanggapi dalam bahasa mereka sendiri.
+	"language_help": """Tidak semua grup berbicara bahasa Indonesia; beberapa group lebih suka Robot menanggapi dalam bahasa mereka sendiri.
 
-Di sinilah terjemahan masuk; Anda dapat mengubah sebagian besar balasan Dirty menjadi bahasa pilihan Anda!
+Di sinilah terjemahan masuk; Anda dapat mengubah sebagian besar balasan Robot menjadi bahasa pilihan Anda!
 
 Bahasa yang tersedia adalah:
 - 🇮🇩 Indonesia
