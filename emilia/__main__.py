@@ -29,9 +29,33 @@ from emilia.modules.connection import connect_button
 from emilia.modules.languages import set_language
 
 PM_START_TEXT = ""
+Hai {}, nama saya {}!
+━━━━━━━━━━━━━━━━━━━━━━━
+Saya Adalah Bot Yang Dapat Membantumu
+Mengelola Group Menjadi Aman dan Menyenangkan,
+Gunakan Perintah /help untuk mengetahui fitur saya
+━━━━━━━━━━━━━━━━━━━━━━━
+Ingin menambahkan saya ke grup Anda? Cukup klik tombol di bawah!
+
+Jika ingin menanyakan sesuatu bisa tanyakan (master saya ini)[t.me/PacarFerdilla)
+
+HELP_STRINGS = ""
+Hai! Nama saya adalah *{}*.
+Saya adalah bot manajemen grup dengan beberapa kelebihan yang menyenangkan! Silahkan lihat berikut ini untuk beberapa ide dari hal-hal yang bisa saya bantu.
+
+Perintah utama yang tersedia:
+ - /start: mulai bot
+ - /help: PM Anda dengan pesan ini.
+ - /help <module name>: PM Anda dengan info tentang modul itu.
+ - /donate: informasi tentang cara menyumbang!
+ - /settings:
+   - di PM: akan mengirimkan pengaturan Anda untuk semua modul yang didukung.
+   - di grup: akan mengarahkan Anda ke pm, dengan semua pengaturan obrolan itu.
 
 
-HELP_STRINGS = "help_text"
+All commands can either be used with / or !.
+
+Dan berikut ini:
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -148,9 +172,9 @@ def start(update, context):
         else:
             first_name = update.effective_user.first_name
             buttons = InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Add me to your group", url="https://t.me/DirtyReget_Bot?startgroup=new")],
+                [[InlineKeyboardButton(text="👤Tambah Saya Ke Group", url="https://t.me/ManagerGithubRobot_Bot?startgroup=new")],
                 [InlineKeyboardButton(text="⚙️ Connections", callback_data="main_connect")],
-                [InlineKeyboardButton(text="🇺🇲 Language", callback_data="main_setlang"), InlineKeyboardButton(text="❓ Help", url="https://t.me/DirtyReget_Bot?start=help")]])
+                [InlineKeyboardButton(text="📣 Language", callback_data="main_setlang"), InlineKeyboardButton(text="❓ Help", url="https://t.me/ManagerGithubRobot_Bot?start=help")]])
             update.effective_message.reply_text(
                 tl(update.effective_message, PM_START_TEXT).format(escape_markdown(first_name), escape_markdown(context.bot.first_name), OWNER_ID),
                 disable_web_page_preview=True,
