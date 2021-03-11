@@ -28,34 +28,9 @@ from emilia.modules.sql import languages_sql as langsql
 from emilia.modules.connection import connect_button
 from emilia.modules.languages import set_language
 
-PM_START_TEXT = ""
-Hai {}, nama saya {}!
-━━━━━━━━━━━━━━━━━━━━━━━
-Saya Adalah Bot Yang Dapat Membantumu
-Mengelola Group Menjadi Aman dan Menyenangkan,
-Gunakan Perintah /help untuk mengetahui fitur saya
-━━━━━━━━━━━━━━━━━━━━━━━
-Ingin menambahkan saya ke grup Anda? Cukup klik tombol di bawah!
+PM_START_TEXT ="start_text"
 
-Jika ingin menanyakan sesuatu bisa tanyakan (master saya ini)[t.me/PacarFerdilla)
-
-HELP_STRINGS = ""
-Hai! Nama saya adalah *{}*.
-Saya adalah bot manajemen grup dengan beberapa kelebihan yang menyenangkan! Silahkan lihat berikut ini untuk beberapa ide dari hal-hal yang bisa saya bantu.
-
-Perintah utama yang tersedia:
- - /start: mulai bot
- - /help: PM Anda dengan pesan ini.
- - /help <module name>: PM Anda dengan info tentang modul itu.
- - /donate: informasi tentang cara menyumbang!
- - /settings:
-   - di PM: akan mengirimkan pengaturan Anda untuk semua modul yang didukung.
-   - di grup: akan mengarahkan Anda ke pm, dengan semua pengaturan obrolan itu.
-
-
-All commands can either be used with / or !.
-
-Dan berikut ini:
+HELP_STRINGS ="help_text"#.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 IMPORTED = {}
 MIGRATEABLE = []
