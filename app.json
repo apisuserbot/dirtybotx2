@@ -1,5 +1,5 @@
 {
-  "name": "DirtyBot",
+  "name": "Robot",
   "description": "Telegram's sassiest group manager. Modular Telegram group management bot!",
   "keywords": [
     "telegram",
@@ -8,8 +8,8 @@
     "manager",
     "3"
   ],
-  "repository": "https://github.com/bagus02/dirtybotx2",
-  "success_url": "https://t.me/Aflky02",
+  "repository": "https://github.com/apisuserbot/dirtybotx2",
+  "success_url": "https://t.me/PacarFerdilla",
   "stack": "container",
   "env": {
     "ENV": {
