@@ -148,7 +148,6 @@ def start(update, context):
             first_name = update.effective_user.first_name
             buttons = InlineKeyboardMarkup(
                 [[InlineKeyboardButton(text="👤Add me to your group", url="https://t.me/ManagerGithubRobot?startgroup=new")],
-                [[InlineKeyboardButton(text="🎉Support Channel", url="https://t.me/Github_Support_Channel"),],
                 [InlineKeyboardButton(text="⚙️ Connections", callback_data="main_connect")],
                 [InlineKeyboardButton(text="🐳 Language", callback_data="main_setlang"), InlineKeyboardButton(text="❓ Help", url="https://t.me/ManagerGithubRobot?start=help")]])
             update.effective_message.reply_text(
